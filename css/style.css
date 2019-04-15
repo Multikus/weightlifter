@@ -1,0 +1,172 @@
+.main {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 700px;
+    height: 600px;
+    background-color: #435174;
+}
+
+/*Лавка и ножки. Начало блока*/
+.bench-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 320px;
+    left: 200px;
+    width: 300px;
+    border: 1px solid grey;
+}
+
+.horizontal-bench {
+    width: 270px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    background-color: #569590;
+    border-radius: 50px 50px 0 0;
+}  
+
+.bench-legs__small {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 9px;
+    height: 70px;
+    background-color: #465d98;
+}
+
+.bench-legs__big {
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    width: 9px;
+    height: 170px;
+    background-color: #465d98;
+}
+
+.legs__small-bench-horizontal {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 40px;
+    height: 10px;
+    background-color: #465d98;
+}
+
+.legs__big-bench-horizontal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 10px;
+    background-color: #465d98;
+}
+/*Конец блока основной лавки.*/
+
+/*Начало блока маленькой гантели*/
+.dumbbell-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 283px;
+    left: 70px;
+    border: 1px solid grey; 
+}
+
+.dumbbell-back {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #2f3d60;
+}
+
+.dumbbell-bar {
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    width: 12px;
+    height: 3px;
+    background-color: #435174;
+}
+
+.dumbbell-front {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #6cc8c9;
+    z-index: 3;
+}
+
+.dumbbell-front__center {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #2f3d60;
+}
+/*Конец блока маленькой гантели*/
+
+/*Туловище*/
+.body-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    position: absolute;
+    top: 436px;
+    left: 200px;
+    width: 300px;
+    border: 1px solid gray; 
+    z-index: 10;
+}
+
+.body__dark-red {
+    width: 120px;
+    height: 25px;
+    background-color: #cc4446;
+    z-index: 2;
+}
+
+.body__darkorange {
+    position: absolute;
+    top: -19px;
+    left: 130px;
+    width: 65px;
+    height: 19px;
+    background-color: #cc4446;
+    border-radius: 40% 50% 0 0 / 100% 100% 0 0;
+}
+
+.head__skin-coral {
+    width: 70px;
+    height: 25px;
+    background-color: #f68e5b;
+}
+
+/*Ноги*/
+
+.green-hip-leg {
+    position: relative;
+    width: 8px;
+    height: 33px;
+    top: -8px;
+    left: 0;
+    background-color: #66943c;
+    border-radius: 10px 0 0 0;
+}
+
+.green-leg {
+    position: relative;
+    top: 6px;
+    left: 0;
+    width: 70px;
+    height: 15px;
+    background-color: #66943c;
+}
