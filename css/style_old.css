@@ -1,0 +1,104 @@
+body {
+    margin-top: 100px;
+}
+.background {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(19, 71, 170, 0.904);
+}
+.equipment__main-box-position {
+    position: relative;
+    top: 350px;
+    left: 305px;
+}
+/*Начало лавочки*/
+.equipment__main-chair {
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 35%;
+    display: flex;
+    justify-content: flex-start;
+}
+.equipment__horizontal-line {
+    margin-top: 65px;
+    margin-right: -220px;
+    height: 10px;
+    width: 230px;
+    background-color: #00948d;
+    border-radius: 50px 0 50px 0;
+}
+.equipment__vertical-line-long {
+    height: 150px;
+    width: 10px;
+    background-color: #0a7fbe;
+    margin-left: 190px;
+}    
+.equipment__vertical-line-short {
+    margin-top: auto;
+    height: 75px;
+    width: 10px;
+    background-color: #0a7fbe;
+}
+/*Конец лавочки*/
+
+/*Штанга*/
+
+.equipment__main-chair-box {
+    position: absolute;
+    top: 450px;
+    left: 305px;
+}
+
+.equipment_barbell {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(241, 97, 13);
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+.equipment_barbell-middle {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    height: 48px;
+    width: 48px;
+    background-color: rgb(241, 21, 13);
+    border-radius: 50%;
+}
+.equipment_barbell-centr {
+    position: absolute;
+    z-index: 3;
+    top: 32px;
+    left: 32px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(7, 210, 246);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background__line {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 400px;
+    left: 0;
+    /*padding-top: 450px;*/
+    border-bottom: 1px solid #75DEF9;
+}

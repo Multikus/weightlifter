@@ -170,3 +170,44 @@
     height: 15px;
     background-color: #66943c;
 }
+
+.vertical-leg__left {
+    position: absolute;
+    top: 7px;
+    left: -3px;
+    width: 12px;
+    height: 95px;
+    transform: skew(5deg);
+    background-color: #ffad71;
+    border-radius: 10px 7px 0 0; 
+}
+
+.vertical-leg__right {
+    position: absolute;
+    z-index: -1;
+    top: 21px;
+    left: 2px;
+    width: 12px;
+    height: 81px;
+    transform: skew(5deg);
+    background-color: #fc8a51;
+    border-radius: 1px;
+}
+
+.sneakers {
+    position: absolute;
+    top: 97px;
+    left: -6px;
+    width: 24px;
+    height: 5px;
+    background-color: #552715;
+}
+
+.sneakers::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #552715;
+}
